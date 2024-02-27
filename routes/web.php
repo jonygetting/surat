@@ -22,3 +22,7 @@ Route::get('/', function () {
 Route::get('Profil', function () {
     return view('profil');
 });
+
+Route::get('register', function () {
+    return view('register');
+});
